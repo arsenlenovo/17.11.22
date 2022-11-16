@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+li {
+  background-color: rgb(113, 70, 70);
+  color: beige;
+}
