@@ -1,7 +1,42 @@
 * {
   box-sizing: border-box;
 }
-li {
-  background-color: rgb(113, 70, 70);
-  color: beige;
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
+nav ul {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  height: 50px;
+  list-style: none;
+}
+nav ul li a {
+  color: aliceblue;
+  display: inline;
+  justify-content: space-between;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  padding-top: 20px;
+}
+header {
+  background-size: cover;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  
+  align-items: center;
+  background-image: url(./earth.png);
+  height: 100vh;
+}
+h1 {
+  color: red;
+}
+
+
+
